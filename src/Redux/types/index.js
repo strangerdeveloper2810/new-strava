@@ -1,0 +1,2 @@
+//Saga Types
+export const FETCH_API_GET_TOKEN_STRAVA = "FETCH_API_GET_TOKEN_STRAVA"
