@@ -28,10 +28,10 @@ export function* getTokenStrava() {
             const athleteId = response.data.athlete.id;
             const fullName = `${response.data.athlete.firstname} ${response.data.athlete.lastname}`;
 
-            settings.setStorage("accessToken", accessToken);
-            settings.setStorage("refreshToken", refreshToken);
-            settings.setStorage("athleteId", athleteId);
-            settings.setStorage("fullName", fullName);
+            localStorage.setItem("accessToken", accessToken);
+            localStorage.setItem("refreshToken", refreshToken);
+            localStorage.setItem("athleteId", athleteId);
+            localStorage.setItem("fullName", fullName);
 
             console.log({ response });
         }
