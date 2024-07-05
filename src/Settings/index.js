@@ -7,7 +7,9 @@ export const ACCESS_TOKEN = "accessToken";
 export const clientId = '127128';
 export const clientSecret = 'b6097f741c5e7156764b8350179145222fa1cfa4';
 export const scope = 'read,activity:read_all';
-export const redirectUri = 'https://strava-api-dun.vercel.app/';
+// export const redirectUri = 'https://strava-api-dun.vercel.app/';
+export const redirectUri = "new-strava.vercel.app";
+
 export const sheetDbUrlRegistration = 'https://sheetdb.io/api/v1/6q0812gcbeszf';
 export const sheetDbUrlActivities = 'https://sheetdb.io/api/v1/2iethxwsa7ic3';
 export const sheetDbUrlChallenge = 'https://sheetdb.io/api/v1/ge9q0s695kxj2';
